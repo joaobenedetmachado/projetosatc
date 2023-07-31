@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/pepsi-2');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: #1a1a1a;
+    height: 20vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#header-content {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo p{
+    color: #f3f3f4;
+    fill: #f3f3f4;
+    font-family: '! PEPSI !', sans-serif;                                
+    font-size: 22pt;    
+}
+
+.group {
+ display: flex;
+ line-height: 28px;
+ align-items: center;
+ position: relative;
+ max-width: 190px;
+}
+
+.input {
+ width: 100%;
+ height: 40px;
+ line-height: 28px;
+ padding: 0 1rem;
+ padding-left: 2.5rem;
+ border: 2px solid transparent;
+ border-radius: 8px;
+ outline: none;
+ background-color: #f3f3f4;
+ color: #0d0c22;
+ transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+ outline: none;
+ border-color: rgba(88, 88, 88, 0.4);
+ background-color: #fff;
+ box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+ position: absolute;
+ left: 1rem;
+ fill: #9e9ea7;
+ width: 1rem;
+ height: 1rem;
+}
+
+#produtos-area {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#produtos {
+    padding: 30px;
+    width: 100%;
+    min-height: 430px;
+    background-color: #1a1a1a;
+    margin-top: 1;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha os elementos no topo */
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
+#produto-elemento {
+    margin: 10px;
+    height: 400px;
+    width: calc(20% - 20px); /* Divide igualmente em 5 colunas com margem de 10px */
+    background-color: #f3f3f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+#produto-img {
+    height: 5cm;
+    width: 90%;
+    border-radius: 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#produto-titulo {
+    min-height: 10%;
+    width: 90%;
+    color: #1a1a1a;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15pt;
+}
+
+#preco {
+    height: 20%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28pt;
+    font-weight: 800;
+}
+
+#img {
+    height: 100%;
+}
+
+#produto-elemento:hover {
+    box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.75);
+}
+
+#nossos-produtos {
+    width: 90vw;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid grey;
+    background-color: #9e9ea7;
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+
+  }
+  
+  .search-result-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  #search-results {
+    position: absolute;
+    
+  }

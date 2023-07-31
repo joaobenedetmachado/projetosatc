@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jow e Doni Store</title>
+    <link rel="stylesheet" href="styleprodutos.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="header-content">
+                <div id="logo" >
+                    <p onclick="back()">Jow e Doni Store <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M10 9v-1.098l1.047-4.902h1.905l1.048 4.9v1.098c0 1.067-.933 2.002-2 2.002s-2-.933-2-2zm5 0c0 1.067.934 2 2.001 2s1.999-.833 1.999-1.9v-1.098l-2.996-5.002h-1.943l.939 4.902v1.098zm-10 .068c0 1.067.933 1.932 2 1.932s2-.865 2-1.932v-1.097l.939-4.971h-1.943l-2.996 4.971v1.097zm-4 2.932h22v12h-22v-12zm2 8h18v-6h-18v6zm1-10.932v-1.097l2.887-4.971h-2.014l-4.873 4.971v1.098c0 1.066.933 1.931 2 1.931s2-.865 2-1.932zm15.127-6.068h-2.014l2.887 4.902v1.098c0 1.067.933 2 2 2s2-.865 2-1.932v-1.097l-4.873-4.971zm-.127-3h-14v2h14v-2z"/></svg></p>
+                </div>
+                <div id="header-search">
+                    <div class="group">
+                      <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                        <g>
+                          <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                      </svg>
+                      <input id="search-input" placeholder="Pesquise aqui" type="search" class="input">
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="area-produto">
+            <div id="area-interna">
+                <div id="anuncio">
+
+                    <div id="esquerda">
+                        <div id="anuncio-img">
+                            <img id="produto-imagem" style="height: 100%;" alt="">
+                          </div>
+                    </div>
+
+                    <div id="direita">
+                        <div id="preco">
+                            <p id="produto-preco"></p>
+                          </div>
+                          
+
+                        <div id="titulo">
+                            <h2 id="produto-titulo"></h2>
+                        </div>
+
+                        <div id="descricao">
+                            <p>A Jow e Doni Store é uma loja reconhecida por oferecer produtos de qualidade com preços acessíveis. Com um compromisso inabalável de fornecer o melhor no mercado, eles se destacam por sua ampla variedade de produtos e pelo excelente atendimento ao cliente.</p>
+                        </div>
+                        
+                        <div id="botao-comprar">
+                            <button>
+                                <span class="shadow"></span>
+                                <span class="edge"></span>
+                                <span class="front text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.665 9.068l-3.665-1.66v14l3.665 2.592 14.335-2.155v-14.845l-14.335 2.068zm-1.665 1.441l1 .453v10.118l-1-.707v-9.864zm14 9.615l-11 1.653v-10.881l11-1.587v10.815zm-2-15.833l-.001 1.749c0 .246-.18.455-.423.492-.303.045-.576-.19-.576-.495v-1.746c.001-.691-.231-1.304-.653-1.726-.368-.37-.847-.565-1.384-.565-1.547 0-2.96 1.558-2.963 3.268v1.681c0 .247-.181.457-.425.494-.302.046-.575-.189-.575-.494l.001-1.683c.004-2.261 1.866-4.266 3.962-4.266 1.717 0 3.039 1.387 3.037 3.291zm-9.999 2.209v-2.235c.004-2.26 1.866-4.265 3.962-4.265.492 0 .944.125 1.35.332-.423.17-.822.4-1.188.683l-.162-.015c-1.547 0-2.961 1.558-2.963 3.268v2.232c0 .248-.182.458-.427.494-.3.045-.572-.187-.572-.494z"/></svg>
+                                </span>
+                              </button>
+                        </div>
+                    </div>
+                </div>
+                <p>Comentarios</p>
+                <div id="area-comentarios">
+                    <div id="seu-comentario">
+                        <div id="seu-pfp">
+                            <div id="img-pfp">
+
+                            </div>
+                        </div>
+                        <div id="area-input">
+                            <div class="input-container">
+                                <input placeholder="Digite aqui!" class="input-field" type="text">
+                                <label for="input-field" class="input-label">Adcione seu comentario</label>
+                                <span class="input-highlight"></span>
+                              </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
